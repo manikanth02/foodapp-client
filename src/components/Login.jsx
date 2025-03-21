@@ -30,7 +30,7 @@ const Login = () => {
     const password = data.password;
     login(email, password)
       .then((result) => {
-        // Signed in
+
         const user = result.user;
         const userInfo = {
           name: data.name,

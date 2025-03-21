@@ -5,15 +5,19 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDboA8edCFDrKmDcX-bKijkZ6SklcYuguQ",
-  authDomain: "desiqna-foodapp.firebaseapp.com",
-  projectId: "desiqna-foodapp",
-  storageBucket: "desiqna-foodapp.appspot.com",
-  messagingSenderId: "323792364745",
-  appId: "1:323792364745:web:19b62b0a9879063f661918",
+  apiKey: "AIzaSyDKB9Rzb73akwlBdmKXSlTbvHiA5BxZyXA",
+  authDomain: "foodapp-245bd.firebaseapp.com",
+  projectId: "foodapp-245bd",
+  storageBucket: "foodapp-245bd.firebasestorage.app",
+  messagingSenderId: "569090422308",
+  appId: "1:569090422308:web:4165d125fed833cd120ab1",
+  measurementId: "G-5Z9MPHN8C9"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
 export default app;
+
+
+// Google Firebase : project-569090422308
